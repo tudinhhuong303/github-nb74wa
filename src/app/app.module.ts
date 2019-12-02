@@ -9,6 +9,7 @@ import {RegistrationModule} from './registration/registration.module';
 import {LayoutModule} from './layout/layout.module';
 import {UsersModule} from './users/users.module';
 import {AccountSettingsModule} from './account-settings/account-settings.module';
+import {HomepageModule} from './homepage/homepage.module';
 
 const routes: Routes = [
   {
@@ -30,7 +31,8 @@ const routes: Routes = [
     DashboardModule,
     RegistrationModule,
     UsersModule,
-    AccountSettingsModule
+    AccountSettingsModule,
+    HomepageModule
   ],
   providers: [],
   bootstrap: [AppComponent]
