@@ -14,7 +14,7 @@ import {HomepageModule} from './homepage/homepage.module';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: '/dashboard',
+    redirectTo: '/homepage',
     pathMatch: 'full'
   }
 ];
